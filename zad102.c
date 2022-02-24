@@ -20,9 +20,10 @@ int main()
     printf("Ispis elementata polja djeljivih s 3:");
     for(i=0;i<10;i++){
     	
-    	if(polje[i]%3==0){
+    	if(polje[i]%3==0)
+	{
     	printf("%d\t",polje[i]);
-		}
 	}
+		    }
     return 0;
 }
